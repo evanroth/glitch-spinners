@@ -1,8 +1,8 @@
-# Glitch Spinners
+# Spinnerz
 
 Broken, glitched spinner text for Claude Code. No words. **[Project website](https://evanroth.github.io/glitch-spinners/)**
 
-![A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise that changes every two seconds.](docs/spinner.gif)
+![A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise that changes every second.](docs/spinner.gif)
 
 While Claude Code works, it shows a word next to the spinner: *Jogging…*, *Pondering…*. This swaps those words for 200 lines of corrupted noise: stacked zalgo marks, dripping box-drawing, runes, mojibake, error debris, emoji, flags that don't exist.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Render docs/spinner.gif: a terminal running Claude Code, with the spinner
-line cycling through the featured glitch strings, a new one every 2 seconds.
+line cycling through the featured glitch strings, a new one every second.
 
 Each frame is an HTML page screenshotted by headless Google Chrome (so zalgo
 marks, emoji and fallback fonts render like a browser does), then ffmpeg
@@ -31,7 +31,7 @@ from build import FEATURED  # noqa: E402
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 OUT = os.path.join(ROOT, "docs", "spinner.gif")
 FPS = 5                       # 200 ms per frame, like Claude's glyph
-FRAMES_PER_STRING = 2 * FPS   # a new string every 2 seconds
+FRAMES_PER_STRING = FPS       # a new string every second
 W, H = 700, 400               # CSS pixels; screenshots are 2x
 
 MARK = re.compile("[̀-ͯ҃-҉᪰-᫿᷀-᷿⃐-⃿︠-︯]+")
