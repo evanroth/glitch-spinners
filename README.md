@@ -1,6 +1,6 @@
 # Spinnerz
 
-Broken, glitched spinner text for Claude Code. No words. **[Project website](https://evanroth.github.io/glitch-spinners/)**
+Broken, glitched spinner text for Claude Code. No words. **[Project website](https://spinnerz.evan-roth.com)**
 
 ![A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise that changes twice a second.](docs/spinner.gif)
 
