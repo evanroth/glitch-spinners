@@ -117,6 +117,8 @@
   .t-blue { color: var(--blue); }
   .t-green { color: var(--green); }
   .t-box { color: var(--line); }
+  /* the demo line doesn't size the terminal (the 80-column box does), so the window never changes width */
+  #demo { display: inline-block; width: 0; height: 1.6em; overflow: visible; vertical-align: top; }
 
   /* Spinner lines: glyph, the string with Claude's moving shimmer, the ellipsis */
   .spin { color: var(--orange); }
@@ -186,7 +188,7 @@
         <p class="tagline">Broken, glitched spinner text for Claude Code. No words.</p>
         <p class="byline">Made by <a href="https://evan-roth.com">Evan Roth</a> · <a href="https://github.com/evanroth/glitch-spinners">Code on GitHub</a></p>
 
-        <figure class="term" role="img" aria-label="A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise: stacked zalgo marks, dripping box-drawing characters, runes, emoji and broken text encoding. It changes every second.">
+        <figure class="term" role="img" aria-label="A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise: stacked zalgo marks, dripping box-drawing characters, runes, emoji and broken text encoding. It changes twice a second.">
           <div class="titlebar" aria-hidden="true"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>my-app — claude</span></div>
 <pre aria-hidden="true"><span class="t-blue">~/code/my-app</span> <span class="t-green">$</span> claude
 
@@ -335,7 +337,7 @@
   var byId = {};
   ENTRIES.forEach(function (e) { byId[e.id] = e; });
 
-  // The demo terminal: a featured string, then the next one every second
+  // The demo terminal: a featured string, then the next one every half second
   // (in Claude Code it changes once per wait).
   var demo = new Line(document.getElementById("demo"), 0);
   var di = 0;
@@ -403,7 +405,7 @@
       tick++;
       demo.draw(tick);
       rows.forEach(function (l) { if (l.visible) l.draw(tick); });
-      if (tick % 10 === 0) nextDemo();
+      if (tick % 5 === 0) nextDemo();
     }, 100);
   }
 </script>

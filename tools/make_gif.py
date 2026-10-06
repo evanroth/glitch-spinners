@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Render docs/spinner.gif: a terminal running Claude Code, with the spinner
-line cycling through the featured glitch strings, a new one every second.
+line cycling through the featured glitch strings, a new one every half second.
 
 Each frame is an HTML page screenshotted by headless Google Chrome (so zalgo
 marks, emoji and fallback fonts render like a browser does), then ffmpeg
@@ -30,8 +30,8 @@ from build import FEATURED  # noqa: E402
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 OUT = os.path.join(ROOT, "docs", "spinner.gif")
-FPS = 5                       # 200 ms per frame, like Claude's glyph
-FRAMES_PER_STRING = FPS       # a new string every second
+FPS = 10                      # 100 ms per frame; Claude's glyph moves every other frame
+FRAMES_PER_STRING = FPS // 2  # a new string every half second
 W, H = 700, 400               # CSS pixels; screenshots are 2x
 
 MARK = re.compile("[̀-ͯ҃-҉᪰-᫿᷀-᷿⃐-⃿︠-︯]+")
@@ -85,8 +85,8 @@ def cell(c, hot):
 
 def spinner(verb, n):
     word = cg.clusters(verb) + ["…"]
-    hot = (n * 3) % (len(word) + 12) - 4
-    return cg.GLYPHS[n % len(cg.GLYPHS)] + " " + "".join(cell(c, abs(i - hot) <= 1) for i, c in enumerate(word))
+    hot = int(n * 1.5) % (len(word) + 12) - 4
+    return cg.GLYPHS[(n // 2) % len(cg.GLYPHS)] + " " + "".join(cell(c, abs(i - hot) <= 1) for i, c in enumerate(word))
 
 
 def shoot(args):
