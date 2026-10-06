@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glitch Spinners</title>
+<meta name="description" content="200 broken, glitched spinner strings for Claude Code. No words, just corrupted noise: zalgo, dripping box-drawing, mojibake, error debris. By Evan Roth.">
+<meta property="og:title" content="Glitch Spinners">
+<meta property="og:description" content="200 broken, glitched spinner strings for Claude Code. By Evan Roth.">
+<meta property="og:image" content="spinner-poster.png">
+<meta name="theme-color" content="#0b0a10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #0b0a10;
+    --bg: #14121c;
+    --bar: #1e1a2a;
+    --line: #2e2942;
+    --text: #e9e6f2;
+    --dim: #8d88a6;
+    --green: #9dff4a;
+    --blue: #4ad8ff;
+    --accent: #ff3d9a;
+    --orange: #d77757;      /* Claude Code's spinner color */
+    --shine: #f4b59c;       /* and its shimmer */
+    --mono: "JetBrains Mono", Menlo, Consolas, monospace;
+    /* terminal text size: 80 columns fit the column at any width */
+    --term: clamp(6px, calc((min(860px, 100vw - 32px) - 30px) / 49), 13.5px);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text);
+    font: 15px/1.65 var(--mono);
+    padding: 32px 16px 48px;
+  }
+  a { color: var(--blue); text-underline-offset: 3px; }
+  a:hover { color: var(--accent); }
+  ::selection { background: var(--accent); color: #fff; }
+
+  .screen { max-width: 860px; margin: 0 auto; }
+
+  .prompt { color: var(--dim); margin: 36px 0 10px; }
+  .prompt:first-child { margin-top: 0; }
+  .prompt .path { color: var(--blue); }
+  .prompt .ps1 { color: var(--green); }
+  .prompt .cmd { color: var(--text); }
+  h1, h2 { font-size: inherit; margin: 0; display: inline; font-weight: 400; }
+
+  .hero-title {
+    display: block;
+    font-size: clamp(34px, 8vw, 56px);
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--text);
+    margin: 4px 0 8px;
+    letter-spacing: -0.02em;
+    text-shadow: -3px 0 var(--accent), 3px 0 var(--blue);
+  }
+  .cursor {
+    display: inline-block; width: .55em; height: .9em; margin-left: .12em;
+    background: var(--green); vertical-align: -0.05em;
+    animation: blink 1s steps(1) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+  .tagline { margin: 0; font-size: 17px; }
+  .byline { margin: 4px 0 0; color: var(--dim); }
+
+  /* A Claude Code session, drawn in text */
+  .term {
+    width: fit-content; max-width: 100%;
+    margin: 28px 0 0;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .term .titlebar {
+    display: flex; align-items: center; gap: 8px;
+    padding: 9px 12px; background: var(--bar); border-bottom: 1px solid var(--line);
+    font-size: 12px; color: var(--dim);
+  }
+  .term .dot { width: 11px; height: 11px; border-radius: 50%; background: #ff5f57; }
+  .term .dot:nth-child(2) { background: #febc2e; }
+  .term .dot:nth-child(3) { background: #28c840; }
+  .term .titlebar span:last-child { margin-left: auto; margin-right: auto; padding-right: 50px; }
+  .term pre {
+    margin: 0; padding: 14px 15px 16px;
+    font: var(--term)/1.6 var(--mono);
+    color: var(--text);
+    white-space: pre; overflow: hidden;
+  }
+  .t-dim { color: var(--dim); }
+  .t-blue { color: var(--blue); }
+  .t-green { color: var(--green); }
+  .t-box { color: var(--line); }
+
+  /* Spinner lines: glyph, the string with Claude's moving shimmer, the ellipsis */
+  .spin { color: var(--orange); }
+  .spin .hot { color: var(--shine); }
+  /* Combining marks go in their own run with a font that has them all, so the
+     browser stacks them on the character before instead of drawing a box */
+  .spin i { font-style: normal; font-family: "Lucida Grande", "Segoe UI", "Cambria Math", "Times New Roman", serif; }
+  .spin i.e { font-family: "STIX Two Math", "Cambria Math", "Arial Unicode MS", serif; }
+
+  p { margin: 0 0 12px; max-width: 70ch; }
+  .out { padding-left: 2ch; }
+  .note { color: var(--dim); }
+  .orange { color: var(--orange); }
+  code { font-family: var(--mono); color: var(--text); background: var(--bar); padding: 0 .3em; border-radius: 3px; }
+
+  .codeblock {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 12px 12px 14px;
+    margin: 0 0 14px;
+  }
+  .codeblock pre {
+    flex: 1; min-width: 0; margin: 0;
+    white-space: pre-wrap; overflow-wrap: anywhere;
+    font: 14px/1.6 var(--mono); color: var(--text);
+  }
+  .codeblock pre::before { content: "$ "; color: var(--green); }
+  .copy {
+    flex: none;
+    font: 12px var(--mono);
+    color: var(--dim); background: transparent;
+    border: 1px solid var(--line); border-radius: 4px;
+    padding: 3px 9px; cursor: pointer;
+  }
+  .copy:hover, .copy:focus-visible { color: var(--accent); border-color: var(--accent); outline: none; }
+
+  /* Every string, the way the gallery's --print shows them */
+  .list {
+    font: var(--term)/1.6 var(--mono);
+    white-space: pre;
+    overflow: hidden;
+    padding: 6px 0 24px;
+  }
+  .list .label { color: var(--dim); }
+  .list .label b { color: var(--text); font-weight: 400; }
+  .list .row { margin-bottom: .5em; }
+
+  footer {
+    max-width: 860px; margin: 40px auto 0;
+    color: var(--dim); font-size: 13px; text-align: center;
+  }
+
+  @media (max-width: 520px) {
+    body { font-size: 14px; padding-top: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cursor { animation: none; }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <div class="screen">
+
+      <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd">echo $PROJECT</span></div>
+      <h1 class="hero-title">Glitch Spinners<span class="cursor" aria-hidden="true"></span></h1>
+      <p class="tagline">Broken, glitched spinner text for Claude Code. No words.</p>
+      <p class="byline">Made by <a href="https://evan-roth.com">Evan Roth</a> · <a href="https://github.com/evanroth/glitch-spinners">Code on GitHub</a></p>
+
+      <figure class="term" role="img" aria-label="A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise: stacked zalgo marks, dripping box-drawing characters, runes, emoji and broken text encoding. It changes every couple of seconds.">
+        <div class="titlebar" aria-hidden="true"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>my-app — claude</span></div>
+<pre aria-hidden="true"><span class="t-blue">~/code/my-app</span> <span class="t-green">$</span> claude
+
+<span class="t-dim">&gt; fix the failing tests</span>
+
+● I'll run the test suite first to see what's failing.
+
+<span class="t-green">●</span> <b>Bash</b>(npm test)
+  <span class="t-dim">⎿  3 failed, 41 passed</span>
+
+<span class="spin" id="demo">✻ …</span>
+
+<span class="t-box">╭──────────────────────────────────────────────────────────────────────────────╮</span>
+<span class="t-box">│</span> ❯                                                                            <span class="t-box">│</span>
+<span class="t-box">╰──────────────────────────────────────────────────────────────────────────────╯</span>
+  <span class="t-dim">esc to interrupt</span></pre>
+      </figure>
+
+      <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd">cat README</span></div>
+      <div class="out">
+        <p>While Claude Code works, it shows a word next to the spinner: <span class="orange">Jogging…</span>, <span class="orange">Pondering…</span>. This swaps those words for 200 lines of corrupted noise: stacked zalgo marks, dripping box-drawing, runes, mojibake, error debris, emoji, flags that don't exist.</p>
+        <p>Each line was bred, not written. A gallery of about 30 glitch effects (combining marks, math alphabets, lookalike letters, rotting braille, torn and smeared text) mixed and mutated them, and Evan rated them by hand over a few rounds. The ones he kept were frozen into the plain text that Claude Code can show, each long enough to fill an 80-column terminal. Claude adds its own spinning glyph and shimmer.</p>
+      </div>
+
+      <div class="prompt" id="install"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd"><h2>install</h2></span></div>
+      <div class="out">
+        <p>Paste this into Terminal:</p>
+        <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/install.sh | bash</pre><button class="copy" type="button">copy</button></div>
+        <p>Then start a new Claude Code session. Sessions already running keep their old words until you restart them.</p>
+        <p class="note">The installer backs up <code>~/.claude/settings.json</code>, then adds the strings to it. Your other settings stay as they are. It needs <code>jq</code>, which comes with recent versions of macOS (on Linux: <code>sudo apt install jq</code>).</p>
+        <p>To mix these in with Claude's usual words instead of replacing them:</p>
+        <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/install.sh | bash -s -- --append</pre><button class="copy" type="button">copy</button></div>
+      </div>
+
+      <div class="prompt" id="update"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd"><h2>update</h2></span></div>
+      <div class="out">
+        <p>Run the install command again. It swaps in the latest list.</p>
+        <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/install.sh | bash</pre><button class="copy" type="button">copy</button></div>
+      </div>
+
+      <div class="prompt" id="uninstall"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd"><h2>uninstall</h2></span></div>
+      <div class="out">
+        <p>Removes the strings (after another backup), and Claude goes back to its own words.</p>
+        <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/uninstall.sh | bash</pre><button class="copy" type="button">copy</button></div>
+      </div>
+
+      <div class="prompt" id="all"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd">python3 gallery/claude_gallery.py --print 200</span></div>
+      <div class="list" id="list" aria-label="All 200 spinner strings, each with its number, the glitch effects that made it and the characters it started from."></div>
+
+      <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cursor" aria-hidden="true"></span></div>
+    </div>
+  </main>
+
+  <footer>
+    By <a href="https://evan-roth.com">Evan Roth</a>. <a href="https://github.com/evanroth/glitch-spinners">Code on GitHub</a>. Public domain (CC0).
+  </footer>
+
+<script src="entries.js"></script>
+<script>
+  // Copy buttons
+  document.querySelectorAll(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = btn.previousElementSibling.textContent;
+      var done = function () {
+        btn.textContent = "copied";
+        setTimeout(function () { btn.textContent = "copy"; }, 1500);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(done, function () {});
+      }
+    });
+  });
+
+  // Spinner lines, drawn like Claude Code: its glyph cycle, then the string in
+  // orange with a 3-character shimmer sweeping across, then "…".
+  var GLYPHS = "·✢✳✶✻✽✽✻✶✳✢·";
+  var still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var seg = window.Intl && Intl.Segmenter ? new Intl.Segmenter(undefined, { granularity: "grapheme" }) : null;
+
+  function clusters(s) {
+    return seg ? Array.from(seg.segment(s), function (x) { return x.segment; }) : Array.from(s);
+  }
+
+  // Marks (but not emoji variation selectors) get split off their base
+  var MARK = /[\u0300-\u036f\u0483-\u0489\u1ab0-\u1aff\u1dc0-\u1dff\u20d0-\u20ff\ufe20-\ufe2f]+/g;
+
+  function cell(c) {
+    var s = document.createElement("span");
+    var last = 0, m;
+    MARK.lastIndex = 0;
+    while ((m = MARK.exec(c))) {
+      if (m.index > last) s.appendChild(document.createTextNode(c.slice(last, m.index)));
+      var run = m[0];
+      // enclosing marks (circles, boxes, keycaps, no-signs) in a font that draws them over the character
+      var parts = run.split(/([\u20dd-\u20e4]+)/);
+      parts.forEach(function (p, k) {
+        if (!p) return;
+        var i = document.createElement("i");
+        if (k % 2) i.className = "e";
+        i.textContent = p;
+        s.appendChild(i);
+      });
+      last = m.index + run.length;
+    }
+    if (last < c.length) s.appendChild(document.createTextNode(c.slice(last)));
+    return s;
+  }
+
+  function Line(el, offset) {
+    this.el = el;
+    this.offset = offset;
+    this.set("");
+  }
+  Line.prototype.set = function (text) {
+    var el = this.el;
+    el.textContent = "";
+    this.glyph = document.createElement("span");
+    el.appendChild(this.glyph);
+    el.appendChild(document.createTextNode(" "));
+    this.cells = clusters(text).concat("…").map(function (c) {
+      var s = cell(c);
+      el.appendChild(s);
+      return s;
+    });
+    this.lit = [];
+    this.draw(still ? 4 : 0);
+  };
+  Line.prototype.draw = function (tick) {
+    var t = tick + this.offset;
+    this.glyph.textContent = GLYPHS[Math.floor(t / 2) % GLYPHS.length];
+    this.lit.forEach(function (s) { s.className = ""; });
+    this.lit = [];
+    if (still) return;
+    var n = this.cells.length;
+    var hot = Math.floor(t * 1.5) % (n + 12) - 4;
+    for (var i = hot - 1; i <= hot + 1; i++) {
+      if (i >= 0 && i < n) { this.cells[i].className = "hot"; this.lit.push(this.cells[i]); }
+    }
+  };
+
+  var byId = {};
+  ENTRIES.forEach(function (e) { byId[e.id] = e; });
+
+  // The demo terminal: a featured string, then the next one every 2.5 seconds
+  // (in Claude Code it changes once per wait).
+  var demo = new Line(document.getElementById("demo"), 0);
+  var di = 0;
+  function nextDemo() {
+    demo.set(byId[FEATURED[di % FEATURED.length]].v);
+    di++;
+  }
+  nextDemo();
+
+  // The full list
+  var list = document.getElementById("list");
+  var rows = [];
+  var frag = document.createDocumentFragment();
+  ENTRIES.forEach(function (e) {
+    var row = document.createElement("div");
+    row.className = "row";
+    var label = document.createElement("div");
+    label.className = "label";
+    label.innerHTML = String(e.id).padStart(4, " ").replace(/ /g, "&nbsp;") + " <b></b>  ";
+    label.querySelector("b").textContent = e.fx;
+    label.appendChild(document.createTextNode(e.src));
+    var line = document.createElement("div");
+    line.className = "spin";
+    line.style.paddingLeft = "5ch";
+    row.appendChild(label);
+    row.appendChild(line);
+    frag.appendChild(row);
+    var l = new Line(line, e.id * 5);
+    l.set(e.v);
+    l.visible = false;
+    rows.push(l);
+  });
+  list.appendChild(frag);
+
+  // Only animate the rows on screen
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (items) {
+      items.forEach(function (it) { it.target._line.visible = it.isIntersecting; });
+    }, { rootMargin: "100px" });
+    rows.forEach(function (l) { l.el._line = l; io.observe(l.el); });
+  } else {
+    rows.forEach(function (l) { l.visible = true; });
+  }
+
+  if (!still) {
+    var tick = 0;
+    setInterval(function () {
+      tick++;
+      demo.draw(tick);
+      rows.forEach(function (l) { if (l.visible) l.draw(tick); });
+      if (tick % 25 === 0) nextDemo();
+    }, 100);
+  }
+</script>
+</body>
+</html>

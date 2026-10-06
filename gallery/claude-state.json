@@ -1,0 +1,3677 @@
+{
+ "version": 1,
+ "next_id": 142,
+ "entries": [
+  {
+   "id": 1,
+   "seed": 345139325,
+   "glyph": "claude",
+   "src": "math",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.42,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 125
+  },
+  {
+   "id": 2,
+   "seed": 1055583024,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.43,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 3,
+   "seed": 489061167,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 8,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.4,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 4,
+   "seed": 182337915,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "katakana",
+      "color": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 10
+  },
+  {
+   "id": 5,
+   "seed": 381421035,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "katakana",
+      "color": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 4
+  },
+  {
+   "id": 6,
+   "seed": 1021717693,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "cjk",
+      "color": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 4
+  },
+  {
+   "id": 7,
+   "seed": 263693556,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 3,
+      "fill": "box",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 16
+  },
+  {
+   "id": 8,
+   "seed": 373397230,
+   "glyph": "claude",
+   "src": "math",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 5,
+      "prob": 0.42,
+      "fill": "braille"
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 2,
+      "fill": "box",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 7
+  },
+  {
+   "id": 9,
+   "seed": 701218980,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 3,
+      "fill": "box",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 7
+  },
+  {
+   "id": 10,
+   "seed": 413718227,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "square",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 30
+  },
+  {
+   "id": 11,
+   "seed": 18215133,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "prohibit",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 10
+  },
+  {
+   "id": 12,
+   "seed": 229085598,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "circle",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 4,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 10
+  },
+  {
+   "id": 13,
+   "seed": 313427340,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.37,
+      "style": "\\x",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 40
+  },
+  {
+   "id": 14,
+   "seed": 1020676799,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.48,
+      "style": "\\x",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 13
+  },
+  {
+   "id": 15,
+   "seed": 377411991,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.35,
+      "style": "&#",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 13
+  },
+  {
+   "id": 16,
+   "seed": 679654683,
+   "glyph": "claude",
+   "src": "geometric",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.14,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 41
+  },
+  {
+   "id": 17,
+   "seed": 391446584,
+   "glyph": "claude",
+   "src": "geometric",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.44,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 16
+  },
+  {
+   "id": 18,
+   "seed": 624241675,
+   "glyph": "claude",
+   "src": "geometric",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.14,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.41,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 16
+  },
+  {
+   "id": 19,
+   "seed": 276364381,
+   "glyph": "claude",
+   "src": "braille",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.48,
+      "mode": "shadow"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 43
+  },
+  {
+   "id": 20,
+   "seed": 625389520,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.48,
+      "mode": "shadow"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 19
+  },
+  {
+   "id": 21,
+   "seed": 937522557,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.28,
+      "mode": "echo"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 19
+  },
+  {
+   "id": 22,
+   "seed": 278296894,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 45
+  },
+  {
+   "id": 23,
+   "seed": 353790357,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 22
+  },
+  {
+   "id": 24,
+   "seed": 328295485,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 3,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 1
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 22
+  },
+  {
+   "id": 25,
+   "seed": 28754879,
+   "glyph": "claude",
+   "src": "box",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 46
+  },
+  {
+   "id": 26,
+   "seed": 809100737,
+   "glyph": "claude",
+   "src": "box",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 3
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 5,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 25
+  },
+  {
+   "id": 27,
+   "seed": 640075110,
+   "glyph": "claude",
+   "src": "box",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    },
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 25
+  },
+  {
+   "id": 28,
+   "seed": 47950878,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 48
+  },
+  {
+   "id": 29,
+   "seed": 956534169,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 28
+  },
+  {
+   "id": 30,
+   "seed": 431173358,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "fade"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 28
+  },
+  {
+   "id": 31,
+   "seed": 911519259,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.67,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.44,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 2,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 64
+  },
+  {
+   "id": 32,
+   "seed": 429597182,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.67,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.44,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "wave",
+      "every": 3,
+      "pool": "all"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 31
+  },
+  {
+   "id": 33,
+   "seed": 63716376,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.49,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.44,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 2,
+      "pool": "math"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 31
+  },
+  {
+   "id": 34,
+   "seed": 631404198,
+   "glyph": "claude",
+   "src": "box",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.42,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.39,
+      "mode": "insert",
+      "set": "faces",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 65
+  },
+  {
+   "id": 35,
+   "seed": 916716382,
+   "glyph": "claude",
+   "src": "box",
+   "len": 14,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.42,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.46,
+      "mode": "replace",
+      "set": "dread",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 34
+  },
+  {
+   "id": 36,
+   "seed": 593171322,
+   "glyph": "claude",
+   "src": "box",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.37,
+      "charset": "braille",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 34
+  },
+  {
+   "id": 37,
+   "seed": 825610118,
+   "glyph": "claude",
+   "src": "math",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.73,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 70
+  },
+  {
+   "id": 38,
+   "seed": 675874181,
+   "glyph": "claude",
+   "src": "math",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.43,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 37
+  },
+  {
+   "id": 39,
+   "seed": 906904437,
+   "glyph": "claude",
+   "src": "math",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.73,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 37
+  },
+  {
+   "id": 40,
+   "seed": 189493308,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.77,
+      "gap": 5,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 4,
+      "mid": 1,
+      "rate": 0.71,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.74,
+      "char": "█"
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 7,
+      "prob": 0.42,
+      "fill": "space"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 76
+  },
+  {
+   "id": 41,
+   "seed": 43924178,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.9,
+      "gap": 5,
+      "fill": "blocks",
+      "swap": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.9,
+      "char": "█"
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 5,
+      "prob": 0.42,
+      "fill": "space"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 40
+  },
+  {
+   "id": 42,
+   "seed": 925959705,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 14,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.77,
+      "gap": 4,
+      "fill": "blocks",
+      "swap": false
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 4,
+      "mid": 1,
+      "rate": 0.64,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.74,
+      "char": "█"
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 8,
+      "prob": 0.31,
+      "fill": "braille"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 40
+  },
+  {
+   "id": 43,
+   "seed": 513310627,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.35,
+      "char": "─"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.25,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 82
+  },
+  {
+   "id": 44,
+   "seed": 279235582,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 14,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 4,
+      "mid": 1,
+      "rate": 0.72,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.35,
+      "char": "─"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.33,
+      "where": "tail"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 43
+  },
+  {
+   "id": 45,
+   "seed": 697405998,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 14,
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.14,
+      "char": "─"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 3
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.72,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 43
+  },
+  {
+   "id": 46,
+   "seed": 492111341,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 4,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 87
+  },
+  {
+   "id": 47,
+   "seed": 587990488,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 4,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "keycap",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 46
+  },
+  {
+   "id": 48,
+   "seed": 295325653,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 6,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 46
+  },
+  {
+   "id": 49,
+   "seed": 769726011,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 7,
+      "prob": 0.83,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.87,
+      "char": "█"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 88
+  },
+  {
+   "id": 50,
+   "seed": 130237298,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 7,
+      "prob": 1.0,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.54,
+      "mark": "all",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.9,
+      "char": "█"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 49
+  },
+  {
+   "id": 51,
+   "seed": 503976059,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 9,
+      "prob": 0.83,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.87,
+      "char": "█"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 49
+  },
+  {
+   "id": 52,
+   "seed": 119121552,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.55,
+      "mode": "tail",
+      "set": "faces",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.7,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 90
+  },
+  {
+   "id": 53,
+   "seed": 53341515,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.37,
+      "mode": "tail",
+      "set": "faces",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.7,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 52
+  },
+  {
+   "id": 54,
+   "seed": 1055237038,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.5,
+      "mode": "tail",
+      "set": "faces",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 6,
+      "mid": 1,
+      "rate": 0.71,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.7,
+      "mark": "diamond",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 52
+  },
+  {
+   "id": 55,
+   "seed": 24261963,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 91
+  },
+  {
+   "id": 56,
+   "seed": 54965193,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 55
+  },
+  {
+   "id": 57,
+   "seed": 527493782,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 13,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 55
+  },
+  {
+   "id": 58,
+   "seed": 216162128,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.41,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.47,
+      "charset": "math",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.63,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 12,
+      "duty": 3,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 92
+  },
+  {
+   "id": 59,
+   "seed": 38870085,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.37,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.23,
+      "charset": "cjk",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.57,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 12,
+      "duty": 1,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 58
+  },
+  {
+   "id": 60,
+   "seed": 933107510,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.72,
+      "mark": "all",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.41,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.47,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.63,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 3,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 58
+  },
+  {
+   "id": 61,
+   "seed": 456195720,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.83,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 1,
+      "prob": 0.97,
+      "fill": "braille"
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "box",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 99
+  },
+  {
+   "id": 62,
+   "seed": 694649489,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 1,
+      "prob": 0.97,
+      "fill": "blocks"
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "braille",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 61
+  },
+  {
+   "id": 63,
+   "seed": 865703351,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.56,
+      "gap": 2,
+      "fill": "space",
+      "swap": false
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.83,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 1,
+      "prob": 0.97,
+      "fill": "space"
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "binary",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 61
+  },
+  {
+   "id": 64,
+   "seed": 163111957,
+   "glyph": "claude",
+   "src": "noise",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 15,
+      "charset": "box",
+      "color": false
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.68,
+      "gap": 2,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 101
+  },
+  {
+   "id": 65,
+   "seed": 1016040229,
+   "glyph": "claude",
+   "src": "noise",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 15,
+      "charset": "box",
+      "color": true
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.65,
+      "gap": 2,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 64
+  },
+  {
+   "id": 66,
+   "seed": 894060802,
+   "glyph": "claude",
+   "src": "noise",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 22,
+      "charset": "runes",
+      "color": false
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.6,
+      "gap": 2,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 64
+  },
+  {
+   "id": 67,
+   "seed": 844467786,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.27
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.87,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 103
+  },
+  {
+   "id": 68,
+   "seed": 860259991,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.24
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.87,
+      "where": "replace"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "static",
+      "every": 6,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 67
+  },
+  {
+   "id": 69,
+   "seed": 1049652266,
+   "glyph": "claude",
+   "src": "box",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.13
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.87,
+      "where": "insert"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 67
+  },
+  {
+   "id": 70,
+   "seed": 12712014,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.17
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 106
+  },
+  {
+   "id": 71,
+   "seed": 273763674,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.17
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 70
+  },
+  {
+   "id": 72,
+   "seed": 172716501,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.13
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 70
+  },
+  {
+   "id": 73,
+   "seed": 413013286,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.5,
+      "gap": 3,
+      "fill": "space",
+      "swap": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.3,
+      "mark": "triangle",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 110
+  },
+  {
+   "id": 74,
+   "seed": 515316159,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.45,
+      "mark": "triangle",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 73
+  },
+  {
+   "id": 75,
+   "seed": 369818218,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.5,
+      "gap": 3,
+      "fill": "space",
+      "swap": true
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.3,
+      "mark": "triangle",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "box",
+      "color": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 73
+  },
+  {
+   "id": 76,
+   "seed": 908144010,
+   "glyph": "claude",
+   "src": "box",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.53,
+      "gap": 6,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "liked",
+   "parent": null,
+   "was": 113
+  },
+  {
+   "id": 77,
+   "seed": 18983446,
+   "glyph": "claude",
+   "src": "box",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.53,
+      "gap": 5,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 76
+  },
+  {
+   "id": 78,
+   "seed": 42080546,
+   "glyph": "claude",
+   "src": "box",
+   "len": 14,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.76,
+      "mark": "prohibit",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.58,
+      "gap": 6,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 7,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 76
+  },
+  {
+   "id": 79,
+   "seed": 525510542,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 80,
+   "seed": 894905283,
+   "glyph": "claude",
+   "src": "box",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 3,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.42,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.74,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.39,
+      "mode": "insert",
+      "set": "bugs",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 81,
+   "seed": 185839649,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 82,
+   "seed": 817878999,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.05
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 2,
+      "down": 4,
+      "mid": 2,
+      "rate": 0.59,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.67,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 83,
+   "seed": 521737591,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "box",
+      "color": false
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.51,
+      "gap": 6,
+      "fill": "space",
+      "swap": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 84,
+   "seed": 481032317,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.68,
+      "gap": 2,
+      "fill": "noise",
+      "swap": false
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 10,
+      "prob": 0.79,
+      "fill": "braille"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.59,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 85,
+   "seed": 267418256,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 3,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 86,
+   "seed": 656444897,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.55,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 1
+     }
+    },
+    {
+     "fx": "smear",
+     "p": {
+      "length": 16,
+      "style": "blocks"
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.71,
+      "gap": 1,
+      "fill": "noise",
+      "swap": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 87,
+   "seed": 596674093,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.74,
+      "mark": "prohibit",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 88,
+   "seed": 607809857,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 1,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 89,
+   "seed": 918998668,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 3,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.45
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "square",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 90,
+   "seed": 999348277,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 91,
+   "seed": 410126048,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "char"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.74,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.9,
+      "gap": 6,
+      "fill": "box",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 92,
+   "seed": 1010295095,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 1,
+      "prob": 1.0,
+      "fill": "braille"
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.17
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 4,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 93,
+   "seed": 12141370,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 6,
+      "down": 1,
+      "mid": 0,
+      "rate": 0.62,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.26,
+      "style": "&#",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 5,
+      "prob": 0.42,
+      "fill": "noise"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 94,
+   "seed": 428385065,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "screen",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 95,
+   "seed": 913174758,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 96,
+   "seed": 665194756,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.31,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 12,
+      "duty": 3,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.57,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 97,
+   "seed": 272020686,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.47,
+      "charset": "math",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "decode",
+     "p": {
+      "period": 37,
+      "charset": "noise",
+      "color": true
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "boxes"
+     }
+    },
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.66,
+      "mode": "rgb"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 98,
+   "seed": 413303781,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.46,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.38,
+      "mode": "replace",
+      "set": "eyes",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.89,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 99,
+   "seed": 541272982,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 9,
+      "prob": 0.6,
+      "fill": "blocks"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 100,
+   "seed": 973997224,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.5,
+      "gap": 3,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 101,
+   "seed": 709424765,
+   "glyph": "claude",
+   "src": "math",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.27
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 102,
+   "seed": 1038450507,
+   "glyph": "claude",
+   "src": "runes",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.42,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.63,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 103,
+   "seed": 146527322,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 18,
+      "duty": 4,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 104,
+   "seed": 522191931,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.41,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.32,
+      "mode": "shadow"
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 10,
+      "duty": 3,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 105,
+   "seed": 394743498,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 8,
+      "prob": 0.91,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.52,
+      "charset": "runes",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 106,
+   "seed": 318598221,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "screen",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 107,
+   "seed": 647167900,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.5,
+      "gap": 3,
+      "fill": "space",
+      "swap": false
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.4,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 108,
+   "seed": 954360990,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.44,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.17
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.78,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null
+  },
+  {
+   "id": 109,
+   "seed": 787956981,
+   "glyph": "claude",
+   "src": "box",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.42,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.39,
+      "mode": "insert",
+      "set": "faces",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.27
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 34
+  },
+  {
+   "id": 110,
+   "seed": 639102735,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 46
+  },
+  {
+   "id": 111,
+   "seed": 248306782,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "box",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.83,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.3,
+      "mark": "triangle",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 61
+  },
+  {
+   "id": 112,
+   "seed": 84942877,
+   "glyph": "claude",
+   "src": "math",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 1,
+      "rate": 0.42,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.25,
+      "where": "tail"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 43
+  },
+  {
+   "id": 114,
+   "seed": 270250685,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.42,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 1.0,
+      "mark": "prohibit",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.19,
+      "char": "▀"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 10
+  },
+  {
+   "id": 116,
+   "seed": 17817830,
+   "glyph": "claude",
+   "src": "box",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.47,
+      "mode": "insert",
+      "set": "bugs",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.52,
+      "charset": "noise",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 34
+  },
+  {
+   "id": 118,
+   "seed": 1034454888,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.14,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 28
+  },
+  {
+   "id": 119,
+   "seed": 128567884,
+   "glyph": "claude",
+   "src": "braille",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.28,
+      "mode": "shadow"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 25
+  },
+  {
+   "id": 121,
+   "seed": 28201385,
+   "glyph": "claude",
+   "src": "math",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 5,
+      "mid": 0,
+      "rate": 0.68,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 37
+  },
+  {
+   "id": 123,
+   "seed": 403823086,
+   "glyph": "claude",
+   "src": "braille",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.48,
+      "mode": "shadow"
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.67,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 31
+  },
+  {
+   "id": 125,
+   "seed": 323039443,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.63,
+      "char": "─"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 49
+  },
+  {
+   "id": 127,
+   "seed": 488109205,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 34,
+      "charset": "katakana",
+      "color": true
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.91,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 4
+  },
+  {
+   "id": 129,
+   "seed": 975602119,
+   "glyph": "claude",
+   "src": "box",
+   "len": 10,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 3,
+      "fill": "box",
+      "swap": false
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 7
+  },
+  {
+   "id": 130,
+   "seed": 122670057,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 11,
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 3,
+      "fill": "box",
+      "swap": false
+     }
+    },
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "katakana",
+      "color": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 7
+  },
+  {
+   "id": 131,
+   "seed": 866000824,
+   "glyph": "claude",
+   "src": "math",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.42,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 1
+  },
+  {
+   "id": 133,
+   "seed": 966501560,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 12,
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.15
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.3,
+      "mark": "triangle",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.87,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "width"
+     }
+    },
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.44,
+      "style": "%",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 67
+  },
+  {
+   "id": 135,
+   "seed": 636171480,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.73,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "breed",
+   "parent": 37
+  },
+  {
+   "id": 136,
+   "seed": 826559604,
+   "glyph": "claude",
+   "src": "geometric",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.29,
+      "style": "U+",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.14,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 16
+  },
+  {
+   "id": 138,
+   "seed": 1056258245,
+   "glyph": "claude",
+   "src": "emoji",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.48,
+      "mode": "shadow"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 22
+  },
+  {
+   "id": 140,
+   "seed": 607994876,
+   "glyph": "claude",
+   "src": "consonants",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "breed",
+   "parent": 22
+  }
+ ],
+ "wait": 0
+}

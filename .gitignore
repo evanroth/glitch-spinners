@@ -1,0 +1,6 @@
+CLAUDE.md
+.DS_Store
+gallery/gallery-state-*.json
+gallery/claude-state-*.json
+__pycache__/
+gallery/*.tmp

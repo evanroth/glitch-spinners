@@ -1,0 +1,3264 @@
+{
+ "version": 1,
+ "next_id": 127,
+ "entries": [
+  {
+   "id": 1,
+   "seed": 1051928336,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 4
+  },
+  {
+   "id": 115,
+   "seed": 119757611,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 121,
+   "seed": 1013098019,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 9,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 3,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.22,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 122,
+   "seed": 768384170,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 1,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 123,
+   "seed": 451245355,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 124,
+   "seed": 622509781,
+   "glyph": "claude",
+   "src": "blocks",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 125,
+   "seed": 345139325,
+   "glyph": "warn",
+   "src": "math",
+   "len": 8,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.42,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 126,
+   "seed": 280012679,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 4,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 1,
+      "mid": 2,
+      "rate": 0.2,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 115
+  },
+  {
+   "id": 116,
+   "seed": 499018592,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 3,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 117,
+   "seed": 640990745,
+   "glyph": "claude",
+   "src": "geometric",
+   "len": 7,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 7,
+      "down": 0,
+      "mid": 1,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 118,
+   "seed": 582821090,
+   "glyph": "claude",
+   "src": "cjk",
+   "len": 3,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 0,
+      "mid": 1,
+      "rate": 0.44,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 119,
+   "seed": 21339314,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 5,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 120,
+   "seed": 1035674293,
+   "glyph": "claude",
+   "src": "mixed",
+   "len": 6,
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 0,
+      "mid": 2,
+      "rate": 0.44,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "mutation",
+   "parent": 1
+  },
+  {
+   "id": 2,
+   "seed": 253799160,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 1,
+      "down": 6,
+      "mid": 2,
+      "rate": 0.75,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "cjk",
+   "len": 5
+  },
+  {
+   "id": 3,
+   "seed": 389873125,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "word",
+      "every": 3,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 4,
+   "seed": 5627296,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "wave",
+      "every": 6,
+      "pool": "math"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "braille",
+   "len": 12
+  },
+  {
+   "id": 5,
+   "seed": 171880474,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.44,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 8
+  },
+  {
+   "id": 6,
+   "seed": 493692598,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.64,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 6
+  },
+  {
+   "id": 7,
+   "seed": 564800932,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.16,
+      "charset": "geometric",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 10
+  },
+  {
+   "id": 8,
+   "seed": 110811475,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.69,
+      "charset": "katakana",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "hex",
+   "len": 4
+  },
+  {
+   "id": 9,
+   "seed": 943140217,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 33,
+      "charset": "runes",
+      "color": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "emoji",
+   "len": 9
+  },
+  {
+   "id": 10,
+   "seed": 182337915,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 31,
+      "charset": "katakana",
+      "color": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "emoji",
+   "len": 11
+  },
+  {
+   "id": 11,
+   "seed": 396976846,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.69,
+      "reps": 1,
+      "style": "echo"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 12,
+   "seed": 862752854,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.41,
+      "reps": 3,
+      "style": "dash"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 9
+  },
+  {
+   "id": 13,
+   "seed": 1042427371,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 8,
+      "prob": 0.5,
+      "fill": "braille"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 8
+  },
+  {
+   "id": 14,
+   "seed": 1018613119,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 12,
+      "prob": 0.56,
+      "fill": "noise"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "braille",
+   "len": 4
+  },
+  {
+   "id": 15,
+   "seed": 673276250,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.69,
+      "gap": 7,
+      "fill": "blocks",
+      "swap": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 10
+  },
+  {
+   "id": 16,
+   "seed": 263693556,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.36,
+      "gap": 3,
+      "fill": "box",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "blocks",
+   "len": 7
+  },
+  {
+   "id": 17,
+   "seed": 169062334,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.18
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 11
+  },
+  {
+   "id": 18,
+   "seed": 835012852,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.32
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "hex",
+   "len": 9
+  },
+  {
+   "id": 19,
+   "seed": 510868563,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.53,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 12
+  },
+  {
+   "id": 20,
+   "seed": 455304653,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.42,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 21,
+   "seed": 145391014,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "color",
+     "p": {
+      "mode": "strobe",
+      "speed": 1,
+      "rate": 0.88
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 22,
+   "seed": 92959064,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "color",
+     "p": {
+      "mode": "toxic",
+      "speed": 1,
+      "rate": 0.96
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 11
+  },
+  {
+   "id": 23,
+   "seed": 627864336,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "bg",
+     "p": {
+      "mode": "strobe",
+      "rate": 0.25
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 24,
+   "seed": 681218393,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "bg",
+     "p": {
+      "mode": "strobe",
+      "rate": 0.42
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "emoji",
+   "len": 5
+  },
+  {
+   "id": 25,
+   "seed": 528280925,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "attrs",
+     "p": {
+      "rate": 0.6,
+      "which": "underline"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "box",
+   "len": 8
+  },
+  {
+   "id": 26,
+   "seed": 290348611,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "attrs",
+     "p": {
+      "rate": 0.29,
+      "which": "underline"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "hex",
+   "len": 5
+  },
+  {
+   "id": 27,
+   "seed": 1021660813,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 3,
+      "duty": 3
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "noise",
+   "len": 11
+  },
+  {
+   "id": 28,
+   "seed": 710556257,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 11,
+      "duty": 1
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "cjk",
+   "len": 12
+  },
+  {
+   "id": 29,
+   "seed": 132725762,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.26,
+      "mark": "screen",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "hex",
+   "len": 6
+  },
+  {
+   "id": 30,
+   "seed": 413718227,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.71,
+      "mark": "square",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "blocks",
+   "len": 6
+  },
+  {
+   "id": 31,
+   "seed": 449506902,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.14,
+      "mode": "tail",
+      "set": "mixed",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 32,
+   "seed": 675317876,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.26,
+      "mode": "sprinkle",
+      "set": "mixed",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "runes",
+   "len": 11
+  },
+  {
+   "id": 33,
+   "seed": 147277810,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 17,
+      "duty": 9,
+      "how": "reverse"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 6
+  },
+  {
+   "id": 34,
+   "seed": 787951581,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 8,
+      "duty": 5,
+      "how": "reverse"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 35,
+   "seed": 456006980,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.65,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 8
+  },
+  {
+   "id": 36,
+   "seed": 177564008,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.33,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 6
+  },
+  {
+   "id": 37,
+   "seed": 922127448,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.06,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 6
+  },
+  {
+   "id": 38,
+   "seed": 122811163,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.5,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "geometric",
+   "len": 7
+  },
+  {
+   "id": 39,
+   "seed": 476143097,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.08,
+      "style": "\\x",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "cjk",
+   "len": 12
+  },
+  {
+   "id": 40,
+   "seed": 313427340,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.37,
+      "style": "\\x",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "mixed",
+   "len": 5
+  },
+  {
+   "id": 41,
+   "seed": 679654683,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.14,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "geometric",
+   "len": 5
+  },
+  {
+   "id": 42,
+   "seed": 561635541,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.91,
+      "where": "tail"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "math",
+   "len": 11
+  },
+  {
+   "id": 43,
+   "seed": 276364381,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.48,
+      "mode": "shadow"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "braille",
+   "len": 9
+  },
+  {
+   "id": 44,
+   "seed": 616006455,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.56,
+      "mode": "rgb"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 45,
+   "seed": 278296894,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 5,
+      "speed": 2
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "emoji",
+   "len": 5
+  },
+  {
+   "id": 46,
+   "seed": 28754879,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "box",
+   "len": 10
+  },
+  {
+   "id": 47,
+   "seed": 952994051,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 11,
+      "style": "fade"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "binary",
+   "len": 5
+  },
+  {
+   "id": 48,
+   "seed": 47950878,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "smear",
+     "p": {
+      "length": 14,
+      "style": "blocks"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 8
+  },
+  {
+   "id": 49,
+   "seed": 850125203,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "tail",
+     "p": {
+      "length": 7,
+      "charset": "katakana",
+      "fade": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "runes",
+   "len": 5
+  },
+  {
+   "id": 50,
+   "seed": 4212270,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "tail",
+     "p": {
+      "length": 30,
+      "charset": "binary",
+      "fade": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "cjk",
+   "len": 5
+  },
+  {
+   "id": 51,
+   "seed": 947291070,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "invisible",
+     "p": {
+      "rate": 0.26,
+      "kind": "cgj"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "box",
+   "len": 9
+  },
+  {
+   "id": 52,
+   "seed": 135685119,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "invisible",
+     "p": {
+      "rate": 0.65,
+      "kind": "mix"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "runes",
+   "len": 5
+  },
+  {
+   "id": 53,
+   "seed": 261742804,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.87,
+      "char": "█"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 54,
+   "seed": 758026800,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.51,
+      "char": " "
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "single",
+   "parent": null,
+   "src": "cjk",
+   "len": 12
+  },
+  {
+   "id": 55,
+   "seed": 701833936,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 9,
+      "duty": 3
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.89,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 6
+  },
+  {
+   "id": 56,
+   "seed": 1060546991,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 6,
+      "duty": 1
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 1,
+      "speed": 3
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.15
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 57,
+   "seed": 1039534693,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "math"
+     }
+    },
+    {
+     "fx": "attrs",
+     "p": {
+      "rate": 0.36,
+      "which": "italicdim"
+     }
+    },
+    {
+     "fx": "smear",
+     "p": {
+      "length": 16,
+      "style": "fade"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 10
+  },
+  {
+   "id": 58,
+   "seed": 375445559,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.27,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.63,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 59,
+   "seed": 1036096503,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.21,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.98,
+      "mark": "screen",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.28
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.52,
+      "charset": "braille",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 60,
+   "seed": 737282300,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.79,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "attrs",
+     "p": {
+      "rate": 0.74,
+      "which": "blink"
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.52,
+      "mode": "insert",
+      "set": "tech",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 61,
+   "seed": 373059829,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.78,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "bg",
+     "p": {
+      "mode": "strobe",
+      "rate": 0.44
+     }
+    },
+    {
+     "fx": "flash",
+     "p": {
+      "period": 5,
+      "duty": 1
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.39,
+      "mark": "screen",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 62,
+   "seed": 633482643,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.07,
+      "mode": "replace",
+      "set": "tech",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.52,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "binary",
+   "len": 10
+  },
+  {
+   "id": 63,
+   "seed": 489756876,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.43
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 12,
+      "prob": 0.21,
+      "fill": "space"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 64,
+   "seed": 911519259,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.67,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.44,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 2,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "emoji",
+   "len": 12
+  },
+  {
+   "id": 65,
+   "seed": 631404198,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.42,
+      "charset": "binary",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.39,
+      "mode": "insert",
+      "set": "faces",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "box",
+   "len": 11
+  },
+  {
+   "id": 66,
+   "seed": 155359433,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "word",
+      "every": 4,
+      "pool": "math"
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.26,
+      "where": "insert"
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.25,
+      "gap": 7,
+      "fill": "box",
+      "swap": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 67,
+   "seed": 975442036,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.16,
+      "mode": "sprinkle",
+      "set": "bugs",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.54,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "noise",
+   "len": 12
+  },
+  {
+   "id": 68,
+   "seed": 645741408,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.35,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.83,
+      "gap": 6,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "runes",
+   "len": 4
+  },
+  {
+   "id": 69,
+   "seed": 328189464,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 3,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.26,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 70,
+   "seed": 825610118,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.5,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 3,
+      "mid": 0,
+      "rate": 0.73,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "math",
+   "len": 7
+  },
+  {
+   "id": 71,
+   "seed": 901841104,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 6,
+      "prob": 0.38,
+      "fill": "blocks"
+     }
+    },
+    {
+     "fx": "invisible",
+     "p": {
+      "rate": 0.56,
+      "kind": "mix"
+     }
+    },
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.83,
+      "reps": 1,
+      "style": "dash"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 11
+  },
+  {
+   "id": 72,
+   "seed": 571363449,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.62,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.66,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.11,
+      "reps": 3,
+      "style": "dash"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 12
+  },
+  {
+   "id": 73,
+   "seed": 223653305,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.72,
+      "where": "insert"
+     }
+    },
+    {
+     "fx": "tail",
+     "p": {
+      "length": 24,
+      "charset": "hex",
+      "fade": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 74,
+   "seed": 747481412,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.82,
+      "mode": "echo"
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.77,
+      "char": "▁"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "digits",
+   "len": 11
+  },
+  {
+   "id": 75,
+   "seed": 1071602049,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.61,
+      "mode": "echo"
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.46,
+      "mode": "insert",
+      "set": "tech",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.14
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 5
+  },
+  {
+   "id": 76,
+   "seed": 189493308,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.77,
+      "gap": 5,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 4,
+      "down": 4,
+      "mid": 1,
+      "rate": 0.71,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.74,
+      "char": "█"
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 7,
+      "prob": 0.42,
+      "fill": "space"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 77,
+   "seed": 222409526,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.06,
+      "style": "U+",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.21
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 8
+  },
+  {
+   "id": 78,
+   "seed": 58081590,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "drip",
+     "p": {
+      "length": 3,
+      "speed": 3
+     }
+    },
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.5,
+      "mode": "echo"
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.63,
+      "gap": 1,
+      "fill": "box",
+      "swap": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 5
+  },
+  {
+   "id": 79,
+   "seed": 638813343,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.85,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.3
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 7,
+      "speed": 2
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 8
+  },
+  {
+   "id": 80,
+   "seed": 890808711,
+   "glyph": "none",
+   "layers": [
+    {
+     "fx": "tail",
+     "p": {
+      "length": 9,
+      "charset": "geometric",
+      "fade": true
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.7,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "flash",
+     "p": {
+      "period": 4,
+      "duty": 2
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 5
+  },
+  {
+   "id": 81,
+   "seed": 283403431,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.21,
+      "reps": 4,
+      "style": "repeat"
+     }
+    },
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.47,
+      "style": "U+",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 82,
+   "seed": 513310627,
+   "glyph": "geo",
+   "layers": [
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.35,
+      "char": "─"
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 2
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.25,
+      "where": "insert"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "emoji",
+   "len": 12
+  },
+  {
+   "id": 83,
+   "seed": 594572156,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.38,
+      "style": "%",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.46,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "emoji",
+   "len": 11
+  },
+  {
+   "id": 84,
+   "seed": 891914050,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 9,
+      "prob": 0.38,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.56,
+      "mode": "insert",
+      "set": "eyes",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.75,
+      "mark": "diamond",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.36,
+      "mode": "echo"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "dots",
+   "len": 4
+  },
+  {
+   "id": 85,
+   "seed": 933289617,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.38,
+      "charset": "box",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 12,
+      "prob": 0.2,
+      "fill": "blocks"
+     }
+    },
+    {
+     "fx": "color",
+     "p": {
+      "mode": "corrupt",
+      "speed": 2,
+      "rate": 0.98
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "digits",
+   "len": 10
+  },
+  {
+   "id": 86,
+   "seed": 131820097,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 3,
+      "down": 4,
+      "mid": 0,
+      "rate": 0.79,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.3,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 87,
+   "seed": 492111341,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 14,
+      "duty": 4,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "color",
+     "p": {
+      "mode": "strobe",
+      "speed": 3,
+      "rate": 0.99
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.68,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 11
+  },
+  {
+   "id": 88,
+   "seed": 769726011,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 7,
+      "prob": 0.83,
+      "fill": "noise"
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.87,
+      "char": "█"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 9
+  },
+  {
+   "id": 89,
+   "seed": 195779459,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "color",
+     "p": {
+      "mode": "fire",
+      "speed": 2,
+      "rate": 0.6
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.64,
+      "where": "replace"
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.88,
+      "char": "▀"
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.42,
+      "mode": "replace",
+      "set": "mixed",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "hex",
+   "len": 5
+  },
+  {
+   "id": 90,
+   "seed": 119121552,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.55,
+      "mode": "tail",
+      "set": "faces",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.7,
+      "mark": "all",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 5
+  },
+  {
+   "id": 91,
+   "seed": 24261963,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 12,
+      "duty": 1
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 5,
+      "down": 10,
+      "mid": 0,
+      "rate": 0.77,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "runes",
+   "len": 10
+  },
+  {
+   "id": 92,
+   "seed": 216162128,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.41,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.47,
+      "charset": "math",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.63,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 12,
+      "duty": 3,
+      "how": "upside"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 6
+  },
+  {
+   "id": 93,
+   "seed": 34820981,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "flip",
+     "p": {
+      "period": 5,
+      "duty": 9,
+      "how": "reverse"
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.22,
+      "gap": 8,
+      "fill": "space",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 10
+  },
+  {
+   "id": 94,
+   "seed": 470612750,
+   "glyph": "warn",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.75,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 18,
+      "duty": 10,
+      "how": "reverse"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 9
+  },
+  {
+   "id": 95,
+   "seed": 30952248,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.23
+     }
+    },
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.35,
+      "mode": "replace",
+      "set": "tech",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "tail",
+     "p": {
+      "length": 24,
+      "charset": "binary",
+      "fade": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "symbols",
+   "len": 9
+  },
+  {
+   "id": 96,
+   "seed": 325051478,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "stutter",
+     "p": {
+      "prob": 0.22,
+      "reps": 2,
+      "style": "dash"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "wave",
+      "every": 6,
+      "pool": "math"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 7
+  },
+  {
+   "id": 97,
+   "seed": 954137962,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.27
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 2,
+      "speed": 3
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "hex",
+   "len": 8
+  },
+  {
+   "id": 98,
+   "seed": 621563907,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 25,
+      "charset": "katakana",
+      "color": true
+     }
+    },
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.44,
+      "style": "\\x",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 4
+  },
+  {
+   "id": 99,
+   "seed": 456195720,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.83,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "jitter",
+     "p": {
+      "maxoff": 1,
+      "prob": 0.97,
+      "fill": "braille"
+     }
+    },
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "box",
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 100,
+   "seed": 109643279,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.29,
+      "mark": "diamond",
+      "flicker": true
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.96,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 101,
+   "seed": 163111957,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "decode",
+     "p": {
+      "period": 15,
+      "charset": "box",
+      "color": false
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.68,
+      "gap": 2,
+      "fill": "noise",
+      "swap": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "noise",
+   "len": 10
+  },
+  {
+   "id": 102,
+   "seed": 684918194,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.41,
+      "mode": "shadow"
+     }
+    },
+    {
+     "fx": "flip",
+     "p": {
+      "period": 18,
+      "duty": 9,
+      "how": "upside"
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.31,
+      "flicker": true
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "static",
+      "every": 3,
+      "pool": "width"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 103,
+   "seed": 844467786,
+   "glyph": "claude",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 7,
+      "duty": 2
+     }
+    },
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.27
+     }
+    },
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.87,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 5,
+      "pool": "boxes"
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 12
+  },
+  {
+   "id": 104,
+   "seed": 1027426871,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.25,
+      "charset": "box",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.19,
+      "char": "▀"
+     }
+    },
+    {
+     "fx": "hexleak",
+     "p": {
+      "rate": 0.41,
+      "style": "\\x",
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 5
+  },
+  {
+   "id": 105,
+   "seed": 19986747,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.56,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.54,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "char",
+      "every": 1,
+      "pool": "all"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 9
+  },
+  {
+   "id": 106,
+   "seed": 12712014,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "shuffle",
+     "p": {
+      "rate": 0.17
+     }
+    },
+    {
+     "fx": "bg",
+     "p": {
+      "mode": "bars",
+      "rate": 0.44
+     }
+    },
+    {
+     "fx": "color",
+     "p": {
+      "mode": "fire",
+      "speed": 1,
+      "rate": 0.77
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "runes",
+   "len": 7
+  },
+  {
+   "id": 107,
+   "seed": 654181796,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "rot",
+     "p": {
+      "rate": 0.73,
+      "charset": "math",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "scan",
+     "p": {
+      "prob": 0.76,
+      "char": " "
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "geometric",
+   "len": 5
+  },
+  {
+   "id": 108,
+   "seed": 288370137,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.9,
+      "where": "replace"
+     }
+    },
+    {
+     "fx": "regional",
+     "p": {
+      "rate": 0.51,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "mojibake",
+     "p": {
+      "rate": 0.4,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 11
+  },
+  {
+   "id": 109,
+   "seed": 796857723,
+   "glyph": "chaos",
+   "layers": [
+    {
+     "fx": "color",
+     "p": {
+      "mode": "toxic",
+      "speed": 2,
+      "rate": 0.53
+     }
+    },
+    {
+     "fx": "homoglyph",
+     "p": {
+      "rate": 0.96,
+      "flicker": false
+     }
+    },
+    {
+     "fx": "ghost",
+     "p": {
+      "rate": 0.63,
+      "mode": "shadow"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 4
+  },
+  {
+   "id": 110,
+   "seed": 413013286,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 11,
+      "duty": 2
+     }
+    },
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.5,
+      "gap": 3,
+      "fill": "space",
+      "swap": false
+     }
+    },
+    {
+     "fx": "enclose",
+     "p": {
+      "rate": 0.3,
+      "mark": "triangle",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "case",
+     "p": {
+      "rate": 0.34,
+      "flicker": false
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 7
+  },
+  {
+   "id": 111,
+   "seed": 1030654504,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "emoji",
+     "p": {
+      "rate": 0.09,
+      "mode": "sprinkle",
+      "set": "dread",
+      "flicker": false
+     }
+    },
+    {
+     "fx": "flash",
+     "p": {
+      "period": 10,
+      "duty": 1
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "mixed",
+   "len": 12
+  },
+  {
+   "id": 112,
+   "seed": 837048953,
+   "glyph": "blocks",
+   "layers": [
+    {
+     "fx": "errors",
+     "p": {
+      "prob": 0.59,
+      "where": "tail"
+     }
+    },
+    {
+     "fx": "zalgo",
+     "p": {
+      "up": 9,
+      "down": 7,
+      "mid": 1,
+      "rate": 0.36,
+      "flicker": true
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "cjk",
+   "len": 9
+  },
+  {
+   "id": 113,
+   "seed": 908144010,
+   "glyph": "eye",
+   "layers": [
+    {
+     "fx": "tear",
+     "p": {
+      "prob": 0.53,
+      "gap": 6,
+      "fill": "blocks",
+      "swap": true
+     }
+    },
+    {
+     "fx": "color",
+     "p": {
+      "mode": "fire",
+      "speed": 1,
+      "rate": 0.54
+     }
+    },
+    {
+     "fx": "drip",
+     "p": {
+      "length": 6,
+      "speed": 4
+     }
+    }
+   ],
+   "rating": 1,
+   "origin": "combo",
+   "parent": null,
+   "src": "box",
+   "len": 12
+  },
+  {
+   "id": 114,
+   "seed": 260569579,
+   "glyph": "braille",
+   "layers": [
+    {
+     "fx": "flash",
+     "p": {
+      "period": 2,
+      "duty": 3
+     }
+    },
+    {
+     "fx": "fonts",
+     "p": {
+      "mode": "word",
+      "every": 2,
+      "pool": "math"
+     }
+    }
+   ],
+   "rating": 0,
+   "origin": "combo",
+   "parent": null,
+   "src": "consonants",
+   "len": 8
+  }
+ ],
+ "texts": []
+}
