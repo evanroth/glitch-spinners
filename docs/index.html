@@ -74,7 +74,7 @@
     font-size: clamp(34px, 8vw, 56px);
     line-height: 1.1;
     font-weight: 700;
-    color: var(--accent);
+    color: var(--orange);
     margin: 4px 0 8px;
     letter-spacing: -0.02em;
   }
@@ -83,8 +83,8 @@
     background: var(--accent); vertical-align: -0.05em;
     animation: blink 1s steps(1) infinite;
   }
+  .hero-title .cursor { background: var(--orange); }
   @keyframes blink { 50% { opacity: 0; } }
-  .tagline { margin: 0; font-size: 17px; }
   .byline { margin: 4px 0 0; color: var(--dim); }
 
   /* A Claude Code session, drawn in text (dark, like a terminal) */
@@ -185,7 +185,6 @@
       <section class="card">
         <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd">echo $PROJECT</span></div>
         <h1 class="hero-title">Spinnerz<span class="cursor" aria-hidden="true"></span></h1>
-        <p class="tagline">Broken, glitched spinner text for Claude Code. No words.</p>
         <p class="byline">Made by <a href="https://evan-roth.com">Evan Roth</a> · <a href="https://github.com/evanroth/glitch-spinners">Code on GitHub</a></p>
 
         <figure class="term" role="img" aria-label="A terminal running Claude Code. Instead of a word, the spinner line shows a full line of glitched noise: stacked zalgo marks, dripping box-drawing characters, runes, emoji and broken text encoding. It changes twice a second.">
@@ -208,14 +207,6 @@
         </figure>
       </section>
 
-      <section class="card">
-        <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd">cat README</span></div>
-        <div class="out">
-          <p>While Claude Code works, it shows a word next to the spinner: <span class="orange">Jogging…</span>, <span class="orange">Pondering…</span>. This swaps those words for 200 lines of corrupted noise: stacked zalgo marks, dripping box-drawing, runes, mojibake, error debris, emoji, flags that don't exist. All 200 are filling the background of this page.</p>
-          <p>Each line was bred, not written. A gallery of about 30 glitch effects (combining marks, math alphabets, lookalike letters, rotting braille, torn and smeared text) mixed and mutated them, and Evan rated them by hand over a few rounds. The ones he kept were frozen into the plain text that Claude Code can show, each long enough to fill an 80-column terminal. Claude adds its own spinning glyph and shimmer.</p>
-        </div>
-      </section>
-
       <section class="card" id="install">
         <div class="prompt"><span class="path">~</span> <span class="ps1">$</span> <span class="cmd"><h2>install</h2></span></div>
         <div class="out">
@@ -223,8 +214,6 @@
           <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/install.sh | bash</pre><button class="copy" type="button">copy</button></div>
           <p>Then start a new Claude Code session. Sessions already running keep their old words until you restart them.</p>
           <p class="note">The installer backs up <code>~/.claude/settings.json</code>, then adds the strings to it. Your other settings stay as they are. It needs <code>jq</code>, which comes with recent versions of macOS (on Linux: <code>sudo apt install jq</code>).</p>
-          <p>To mix these in with Claude's usual words instead of replacing them:</p>
-          <div class="codeblock"><pre>curl -fsSL https://raw.githubusercontent.com/evanroth/glitch-spinners/main/install.sh | bash -s -- --append</pre><button class="copy" type="button">copy</button></div>
         </div>
       </section>
 
